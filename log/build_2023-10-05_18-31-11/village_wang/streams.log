@@ -1,0 +1,7 @@
+[0.059s] Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_wang -- -j8 -l8
+[0.204s] [100%] Built target wang2_node
+[0.227s] Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_wang -- -j8 -l8
+[0.303s] Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_wang
+[0.316s] -- Install configuration: ""
+[0.317s] -- Installing: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.dsv
+[0.324s] Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_wang

@@ -1,0 +1,493 @@
+[0.549s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.549s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4e9b57c8b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4e9b57c8b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4e9b57ce20>)
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.646s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huang/codes/ROS_Study'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_pub_sub' with type 'ros.ament_cmake' and name 'ros_pub_sub'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_pub_sub_cv) by extension 'ros'
+[0.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_pub_sub_cv' with type 'ros.ament_cmake' and name 'ros_pub_sub_cv'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ignore_ament_install'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['colcon_pkg']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['ros']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ros'
+[0.686s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_interfaces' with type 'ros.ament_cmake' and name 'village_interfaces'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ignore_ament_install'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['colcon_pkg']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'colcon_pkg'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['colcon_meta']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'colcon_meta'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['ros']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ros'
+[0.690s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_li' with type 'ros.ament_cmake' and name 'village_li'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_pkg']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_pkg'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_meta']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_meta'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ros']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ros'
+[0.693s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_wang' with type 'ros.ament_cmake' and name 'village_wang'
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.764s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/huang/codes/ROS_Study/install
+[0.769s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/galactic
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.927s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/codes/ROS_Study/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/codes/ROS_Study/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/huang/codes/ROS_Study/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.930s] DEBUG:colcon.colcon_core.verb:Building package 'village_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/codes/ROS_Study/build/village_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/codes/ROS_Study/install/village_interfaces', 'merge_install': False, 'path': '/home/huang/codes/ROS_Study/src/village_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_cache' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_first' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_force_configure' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'ament_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'village_li' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/codes/ROS_Study/build/village_li', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/codes/ROS_Study/install/village_li', 'merge_install': False, 'path': '/home/huang/codes/ROS_Study/src/village_li', 'symlink_install': False, 'test_result_base': None}
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_first' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_force_configure' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'ament_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'village_wang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/codes/ROS_Study/build/village_wang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/codes/ROS_Study/install/village_wang', 'merge_install': False, 'path': '/home/huang/codes/ROS_Study/src/village_wang', 'symlink_install': False, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.939s] DEBUG:colcon.colcon_core.verb:Building package 'ros_pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/codes/ROS_Study/build/ros_pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/codes/ROS_Study/install/ros_pub_sub', 'merge_install': False, 'path': '/home/huang/codes/ROS_Study/src/ros_pub_sub', 'symlink_install': False, 'test_result_base': None}
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'cmake_target' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'cmake_clean_first' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'cmake_force_configure' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'ament_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'ros_pub_sub_cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.941s] DEBUG:colcon.colcon_core.verb:Building package 'ros_pub_sub_cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv', 'merge_install': False, 'path': '/home/huang/codes/ROS_Study/src/ros_pub_sub_cv', 'symlink_install': False, 'test_result_base': None}
+[0.943s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.949s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.950s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/codes/ROS_Study/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.950s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/codes/ROS_Study/src/tutorial_interfaces'
+[0.962s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/codes/ROS_Study/src/village_interfaces' with build type 'ament_cmake'
+[0.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/codes/ROS_Study/src/village_interfaces'
+[0.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.981s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/codes/ROS_Study/src/village_li' with build type 'ament_cmake'
+[0.996s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/codes/ROS_Study/src/village_li'
+[1.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/codes/ROS_Study/src/village_wang' with build type 'ament_cmake'
+[1.018s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/codes/ROS_Study/src/village_wang'
+[1.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/tutorial_interfaces -- -j8 -l8
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_interfaces -- -j8 -l8
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_wang -- -j8 -l8
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_wang -- -j8 -l8
+[1.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_wang
+[1.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_li)
+[1.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li' for CMake module files
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li' for CMake config files
+[1.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'cmake_prefix_path')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_li/share/village_li/hook/cmake_prefix_path.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_li/share/village_li/hook/cmake_prefix_path.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_li/share/village_li/hook/cmake_prefix_path.sh'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/lib'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/bin'
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/lib/pkgconfig/village_li.pc'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/lib/python3.8/site-packages'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/bin'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.sh'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.bash'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.zsh'
+[1.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/village_li/share/colcon-core/packages/village_li)
+[1.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang' for CMake module files
+[1.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_wang
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang' for CMake config files
+[1.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/lib'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/bin'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/lib/pkgconfig/village_wang.pc'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/lib/python3.8/site-packages'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/bin'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.ps1'
+[1.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.dsv'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.sh'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.bash'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.zsh'
+[1.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/village_wang/share/colcon-core/packages/village_wang)
+[1.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_li)
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li' for CMake module files
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li' for CMake config files
+[1.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'cmake_prefix_path')
+[1.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_li/share/village_li/hook/cmake_prefix_path.ps1'
+[1.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_li/share/village_li/hook/cmake_prefix_path.dsv'
+[1.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_li/share/village_li/hook/cmake_prefix_path.sh'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/lib'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/bin'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/lib/pkgconfig/village_li.pc'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/lib/python3.8/site-packages'
+[1.615s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_li/bin'
+[1.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.ps1'
+[1.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.sh'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.bash'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_li/share/village_li/package.zsh'
+[1.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/village_li/share/colcon-core/packages/village_li)
+[1.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang' for CMake module files
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang' for CMake config files
+[1.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[1.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/lib'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/bin'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/lib/pkgconfig/village_wang.pc'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/lib/python3.8/site-packages'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_wang/bin'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.ps1'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.sh'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.bash'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.zsh'
+[1.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/village_wang/share/colcon-core/packages/village_wang)
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_interfaces -- -j8 -l8
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/tutorial_interfaces -- -j8 -l8
+[1.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_interfaces
+[1.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/tutorial_interfaces
+[1.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces' for CMake module files
+[1.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_interfaces
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces' for CMake config files
+[1.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/lib'
+[1.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/bin'
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages'
+[1.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'pythonpath')
+[1.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/pythonpath.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/pythonpath.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/pythonpath.sh'
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/bin'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.sh'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.bash'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.zsh'
+[1.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[1.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces' for CMake module files
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/tutorial_interfaces
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces' for CMake config files
+[1.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib'
+[1.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/bin'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.944s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages'
+[1.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/bin'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces' for CMake module files
+[1.988s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces' for CMake config files
+[1.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/lib'
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[2.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/bin'
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages'
+[2.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'pythonpath')
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/pythonpath.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/pythonpath.dsv'
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/hook/pythonpath.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/village_interfaces/bin'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.dsv'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.sh'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.bash'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.zsh'
+[2.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[2.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces' for CMake module files
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces' for CMake config files
+[2.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[2.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib'
+[2.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/bin'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages'
+[2.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/tutorial_interfaces/bin'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[2.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[2.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/codes/ROS_Study/src/ros_pub_sub' with build type 'ament_cmake'
+[2.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/codes/ROS_Study/src/ros_pub_sub'
+[2.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/codes/ROS_Study/src/ros_pub_sub_cv' with build type 'ament_cmake'
+[2.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/codes/ROS_Study/src/ros_pub_sub_cv'
+[2.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub -- -j8 -l8
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub -- -j8 -l8
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub
+[2.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_pub_sub)
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub' for CMake module files
+[2.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub' for CMake config files
+[2.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_pub_sub', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/hook/cmake_prefix_path.ps1'
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/hook/cmake_prefix_path.dsv'
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/hook/cmake_prefix_path.sh'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/lib'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/bin'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/lib/pkgconfig/ros_pub_sub.pc'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/lib/python3.8/site-packages'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/bin'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.dsv'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.sh'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.bash'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.zsh'
+[2.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/ros_pub_sub/share/colcon-core/packages/ros_pub_sub)
+[2.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_pub_sub)
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub' for CMake module files
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub' for CMake config files
+[2.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_pub_sub', 'cmake_prefix_path')
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/hook/cmake_prefix_path.ps1'
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/hook/cmake_prefix_path.dsv'
+[2.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/hook/cmake_prefix_path.sh'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/lib'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/bin'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/lib/pkgconfig/ros_pub_sub.pc'
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/lib/python3.8/site-packages'
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub/bin'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.ps1'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.dsv'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.sh'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.bash'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.zsh'
+[2.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/ros_pub_sub/share/colcon-core/packages/ros_pub_sub)
+[18.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[18.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub_cv
+[18.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_pub_sub_cv)
+[18.986s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv' for CMake module files
+[18.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub_cv
+[18.988s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv' for CMake config files
+[18.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_pub_sub_cv', 'cmake_prefix_path')
+[18.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/hook/cmake_prefix_path.ps1'
+[18.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/hook/cmake_prefix_path.dsv'
+[18.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/hook/cmake_prefix_path.sh'
+[18.997s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib'
+[18.997s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/bin'
+[18.998s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/pkgconfig/ros_pub_sub_cv.pc'
+[18.998s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/python3.8/site-packages'
+[18.998s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/bin'
+[19.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.ps1'
+[19.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.dsv'
+[19.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.sh'
+[19.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.bash'
+[19.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.zsh'
+[19.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/colcon-core/packages/ros_pub_sub_cv)
+[19.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_pub_sub_cv)
+[19.081s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv' for CMake module files
+[19.082s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv' for CMake config files
+[19.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_pub_sub_cv', 'cmake_prefix_path')
+[19.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/hook/cmake_prefix_path.ps1'
+[19.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/hook/cmake_prefix_path.dsv'
+[19.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/hook/cmake_prefix_path.sh'
+[19.087s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib'
+[19.087s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/bin'
+[19.087s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/pkgconfig/ros_pub_sub_cv.pc'
+[19.088s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/python3.8/site-packages'
+[19.088s] Level 1:colcon.colcon_core.environment:checking '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/bin'
+[19.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.ps1'
+[19.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.dsv'
+[19.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.sh'
+[19.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.bash'
+[19.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.zsh'
+[19.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/colcon-core/packages/ros_pub_sub_cv)
+[19.093s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.095s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.106s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.144s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/codes/ROS_Study/install/local_setup.ps1'
+[19.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huang/codes/ROS_Study/install/_local_setup_util_ps1.py'
+[19.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/codes/ROS_Study/install/setup.ps1'
+[19.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/codes/ROS_Study/install/local_setup.sh'
+[19.158s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huang/codes/ROS_Study/install/_local_setup_util_sh.py'
+[19.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/codes/ROS_Study/install/setup.sh'
+[19.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/codes/ROS_Study/install/local_setup.bash'
+[19.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/codes/ROS_Study/install/setup.bash'
+[19.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/codes/ROS_Study/install/local_setup.zsh'
+[19.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/codes/ROS_Study/install/setup.zsh'

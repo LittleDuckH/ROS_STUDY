@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:46 (install):
+  install does not recognize sub-command DIRECTIRY
+
+
+make: *** [Makefile:310：cmake_check_build_system] 错误 1

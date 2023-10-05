@@ -1,0 +1,10 @@
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/install/strip.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/install/local.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/edit_cache.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/test.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/li_node.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/install.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/list_install_components.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/rebuild_cache.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/village_li_uninstall.dir
+/home/huang/codes/ROS_Study/build/village_li/CMakeFiles/uninstall.dir

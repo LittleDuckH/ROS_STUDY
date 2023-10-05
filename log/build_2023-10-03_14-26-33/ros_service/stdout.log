@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target client_node[0m
+[35m[1mScanning dependencies of target service_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_test.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/service_node.dir/src/service_test.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable service_node[0m
+[ 75%] Built target service_node

@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000585] (-) JobUnselected: {'identifier': 'ros_pub_sub'}
+[0.000814] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001433] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.001478] (-) JobUnselected: {'identifier': 'village_li'}
+[0.001500] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.001522] (ros_pub_sub_cv) JobQueued: {'identifier': 'ros_pub_sub_cv', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/huang/codes/ROS_Study/install/tutorial_interfaces')])}
+[0.001549] (ros_pub_sub_cv) JobStarted: {'identifier': 'ros_pub_sub_cv'}
+[0.032683] (ros_pub_sub_cv) JobProgress: {'identifier': 'ros_pub_sub_cv', 'progress': 'cmake'}
+[0.034531] (ros_pub_sub_cv) JobProgress: {'identifier': 'ros_pub_sub_cv', 'progress': 'build'}
+[0.035880] (ros_pub_sub_cv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv', '--', '-j8', '-l8'], 'cwd': '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:15732/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huang'), ('LC_TIME', 'en_US.UTF-8'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1335'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1135'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=02d3fe1294b9b67ac72ea08e64ba2f94'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:15732/'), ('COLCON_PREFIX_PATH', '/home/huang/codes/ROS_Study/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'huang'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:15732/'), ('JOURNAL_STREAM', '8:42616'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/huang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/huang-A34:@/tmp/.ICE-unix/1373,unix/huang-A34:/tmp/.ICE-unix/1373'), ('INVOCATION_ID', '36df4d882954448888d17a3f3a6e24f5'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:15732/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/684356d0_65a7_4833_8508_17e09b482fd9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LIBVA_DRIVER_NAME', 'iHD'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7de3e82ce.sock'), ('GNOME_TERMINAL_SERVICE', ':1.434'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:15732/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=02d3fe1294b9b67ac72ea08e64ba2f94'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:15732/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic')]), 'shell': False}
+[0.099778] (-) TimerEvent: {}
+[0.103072] (ros_pub_sub_cv) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub_node\x1b[0m\n'}
+[0.129789] (ros_pub_sub_cv) StdoutLine: {'line': b'[ 50%] Built target pub_node\n'}
+[0.155500] (ros_pub_sub_cv) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.200047] (-) TimerEvent: {}
+[0.300597] (-) TimerEvent: {}
+[0.401026] (-) TimerEvent: {}
+[0.501730] (-) TimerEvent: {}
+[0.602566] (-) TimerEvent: {}
+[0.702954] (-) TimerEvent: {}
+[0.803367] (-) TimerEvent: {}
+[0.903749] (-) TimerEvent: {}
+[1.004297] (-) TimerEvent: {}
+[1.104644] (-) TimerEvent: {}
+[1.204940] (-) TimerEvent: {}
+[1.305322] (-) TimerEvent: {}
+[1.405666] (-) TimerEvent: {}
+[1.506124] (-) TimerEvent: {}
+[1.606752] (-) TimerEvent: {}
+[1.707238] (-) TimerEvent: {}
+[1.807743] (-) TimerEvent: {}
+[1.908306] (-) TimerEvent: {}
+[2.008955] (-) TimerEvent: {}
+[2.109610] (-) TimerEvent: {}
+[2.210160] (-) TimerEvent: {}
+[2.310816] (-) TimerEvent: {}
+[2.411434] (-) TimerEvent: {}
+[2.511898] (-) TimerEvent: {}
+[2.612436] (-) TimerEvent: {}
+[2.712901] (-) TimerEvent: {}
+[2.813410] (-) TimerEvent: {}
+[2.913849] (-) TimerEvent: {}
+[3.014219] (-) TimerEvent: {}
+[3.114691] (-) TimerEvent: {}
+[3.215146] (-) TimerEvent: {}
+[3.315534] (-) TimerEvent: {}
+[3.416127] (-) TimerEvent: {}
+[3.516593] (-) TimerEvent: {}
+[3.617044] (-) TimerEvent: {}
+[3.717488] (-) TimerEvent: {}
+[3.817808] (-) TimerEvent: {}
+[3.918105] (-) TimerEvent: {}
+[4.018475] (-) TimerEvent: {}
+[4.118865] (-) TimerEvent: {}
+[4.219253] (-) TimerEvent: {}
+[4.319627] (-) TimerEvent: {}
+[4.420120] (-) TimerEvent: {}
+[4.520708] (-) TimerEvent: {}
+[4.621148] (-) TimerEvent: {}
+[4.721874] (-) TimerEvent: {}
+[4.822382] (-) TimerEvent: {}
+[4.922845] (-) TimerEvent: {}
+[5.023308] (-) TimerEvent: {}
+[5.123869] (-) TimerEvent: {}
+[5.224428] (-) TimerEvent: {}
+[5.324950] (-) TimerEvent: {}
+[5.425444] (-) TimerEvent: {}
+[5.525791] (-) TimerEvent: {}
+[5.626205] (-) TimerEvent: {}
+[5.726924] (-) TimerEvent: {}
+[5.827800] (-) TimerEvent: {}
+[5.928559] (-) TimerEvent: {}
+[6.029420] (-) TimerEvent: {}
+[6.129974] (-) TimerEvent: {}
+[6.230455] (-) TimerEvent: {}
+[6.331052] (-) TimerEvent: {}
+[6.431462] (-) TimerEvent: {}
+[6.531821] (-) TimerEvent: {}
+[6.632197] (-) TimerEvent: {}
+[6.732545] (-) TimerEvent: {}
+[6.832937] (-) TimerEvent: {}
+[6.933329] (-) TimerEvent: {}
+[7.033700] (-) TimerEvent: {}
+[7.134186] (-) TimerEvent: {}
+[7.234567] (-) TimerEvent: {}
+[7.334930] (-) TimerEvent: {}
+[7.435438] (-) TimerEvent: {}
+[7.535919] (-) TimerEvent: {}
+[7.636304] (-) TimerEvent: {}
+[7.736661] (-) TimerEvent: {}
+[7.837091] (-) TimerEvent: {}
+[7.937474] (-) TimerEvent: {}
+[8.037900] (-) TimerEvent: {}
+[8.138219] (-) TimerEvent: {}
+[8.238501] (-) TimerEvent: {}
+[8.338886] (-) TimerEvent: {}
+[8.439497] (-) TimerEvent: {}
+[8.540141] (-) TimerEvent: {}
+[8.640659] (-) TimerEvent: {}
+[8.741100] (-) TimerEvent: {}
+[8.841451] (-) TimerEvent: {}
+[8.941874] (-) TimerEvent: {}
+[9.042297] (-) TimerEvent: {}
+[9.142928] (-) TimerEvent: {}
+[9.243536] (-) TimerEvent: {}
+[9.344081] (-) TimerEvent: {}
+[9.444616] (-) TimerEvent: {}
+[9.544955] (-) TimerEvent: {}
+[9.645311] (-) TimerEvent: {}
+[9.745722] (-) TimerEvent: {}
+[9.846260] (-) TimerEvent: {}
+[9.946900] (-) TimerEvent: {}
+[10.047325] (-) TimerEvent: {}
+[10.147761] (-) TimerEvent: {}
+[10.248303] (-) TimerEvent: {}
+[10.348750] (-) TimerEvent: {}
+[10.449241] (-) TimerEvent: {}
+[10.549812] (-) TimerEvent: {}
+[10.650222] (-) TimerEvent: {}
+[10.673053] (ros_pub_sub_cv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub_node\x1b[0m\n'}
+[10.750395] (-) TimerEvent: {}
+[10.851090] (-) TimerEvent: {}
+[10.951989] (-) TimerEvent: {}
+[11.052326] (-) TimerEvent: {}
+[11.152678] (-) TimerEvent: {}
+[11.253168] (-) TimerEvent: {}
+[11.354204] (-) TimerEvent: {}
+[11.454975] (-) TimerEvent: {}
+[11.555632] (-) TimerEvent: {}
+[11.656233] (-) TimerEvent: {}
+[11.756691] (-) TimerEvent: {}
+[11.857254] (-) TimerEvent: {}
+[11.875374] (ros_pub_sub_cv) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5\n'}
+[11.875989] (ros_pub_sub_cv) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5\n'}
+[11.894855] (ros_pub_sub_cv) StdoutLine: {'line': b'[100%] Built target sub_node\n'}
+[11.921910] (ros_pub_sub_cv) CommandEnded: {'returncode': 0}
+[11.957468] (-) TimerEvent: {}
+[11.992302] (ros_pub_sub_cv) JobProgress: {'identifier': 'ros_pub_sub_cv', 'progress': 'install'}
+[12.021632] (ros_pub_sub_cv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv'], 'cwd': '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:15732/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huang'), ('LC_TIME', 'en_US.UTF-8'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1335'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1135'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=02d3fe1294b9b67ac72ea08e64ba2f94'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:15732/'), ('COLCON_PREFIX_PATH', '/home/huang/codes/ROS_Study/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'huang'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:15732/'), ('JOURNAL_STREAM', '8:42616'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/huang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/huang-A34:@/tmp/.ICE-unix/1373,unix/huang-A34:/tmp/.ICE-unix/1373'), ('INVOCATION_ID', '36df4d882954448888d17a3f3a6e24f5'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:15732/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/684356d0_65a7_4833_8508_17e09b482fd9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LIBVA_DRIVER_NAME', 'iHD'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7de3e82ce.sock'), ('GNOME_TERMINAL_SERVICE', ':1.434'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:15732/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=02d3fe1294b9b67ac72ea08e64ba2f94'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:15732/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic')]), 'shell': False}
+[12.052985] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.053654] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/ros_pub_sub_cv/pub_node\n'}
+[12.053950] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Installing: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/ros_pub_sub_cv/sub_node\n'}
+[12.057597] (-) TimerEvent: {}
+[12.061416] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Set runtime path of "/home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/ros_pub_sub_cv/sub_node" to ""\n'}
+[12.061899] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ament_index/resource_index/package_run_dependencies/ros_pub_sub_cv\n'}
+[12.062181] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ament_index/resource_index/parent_prefix_path/ros_pub_sub_cv\n'}
+[12.062332] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/ament_prefix_path.sh\n'}
+[12.062537] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/ament_prefix_path.dsv\n'}
+[12.062668] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/path.sh\n'}
+[12.062805] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/path.dsv\n'}
+[12.062942] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.bash\n'}
+[12.063078] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.sh\n'}
+[12.063295] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.zsh\n'}
+[12.063421] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.dsv\n'}
+[12.063557] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Installing: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.dsv\n'}
+[12.063702] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ament_index/resource_index/packages/ros_pub_sub_cv\n'}
+[12.063844] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/cmake/ros_pub_sub_cvConfig.cmake\n'}
+[12.064047] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/cmake/ros_pub_sub_cvConfig-version.cmake\n'}
+[12.064256] (ros_pub_sub_cv) StdoutLine: {'line': b'-- Up-to-date: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.xml\n'}
+[12.066612] (ros_pub_sub_cv) CommandEnded: {'returncode': 0}
+[12.142157] (ros_pub_sub_cv) JobEnded: {'identifier': 'ros_pub_sub_cv', 'rc': 0}
+[12.143315] (-) EventReactorShutdown: {}

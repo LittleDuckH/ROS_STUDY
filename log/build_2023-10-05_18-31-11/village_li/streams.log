@@ -1,0 +1,7 @@
+[0.063s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[0.163s] [100%] Built target li_node
+[0.179s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[0.264s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li
+[0.275s] -- Install configuration: ""
+[0.276s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/package.dsv
+[0.282s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li

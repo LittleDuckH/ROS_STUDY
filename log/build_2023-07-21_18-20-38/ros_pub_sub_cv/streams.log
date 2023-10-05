@@ -1,0 +1,22 @@
+[0.045s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[0.118s] [35m[1mScanning dependencies of target sub_node[0m
+[0.149s] [ 50%] Built target pub_node
+[0.162s] [ 75%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o[0m
+[5.826s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:24:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[5.827s]    33 |   cv::Mat resizedFrame([01;31m[K180[m[K, 320, CV_8U3, cv::Scalar(255, 255, 255));
+[5.827s]       |                        [01;31m[K^~~[m[K
+[5.827s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[5.892s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Picture&) const[m[K’:
+[5.892s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:26:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::Mat MinimalSubscriber::resizedFrame(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[5.892s]    26 |     cv::resize(img, resizedFrame, [01;31m[KresizedFrame[m[K.size());
+[5.893s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[5.898s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:26:21:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kcv::Mat MinimalSubscriber::resizedFrame(int)[m[K’
+[5.898s]    26 |     cv::resize(img, [01;31m[KresizedFrame[m[K, resizedFrame.size());
+[5.898s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[5.898s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:11:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.898s]    33 |   cv::Mat [01;36m[KresizedFrame[m[K(180, 320, CV_8U3, cv::Scalar(255, 255, 255));
+[5.899s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[9.221s] make[2]: *** [CMakeFiles/sub_node.dir/build.make:63：CMakeFiles/sub_node.dir/src/sub.cpp.o] 错误 1
+[9.221s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+[9.221s] make: *** [Makefile:141：all] 错误 2
+[9.225s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '2': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8

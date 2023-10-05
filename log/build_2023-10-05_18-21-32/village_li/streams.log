@@ -1,0 +1,23 @@
+[0.091s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[0.187s] [100%] Built target li_node
+[0.217s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[0.311s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li
+[0.325s] -- Install configuration: ""
+[0.326s] -- Execute custom install script
+[0.327s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/ament_index/resource_index/package_run_dependencies/village_li
+[0.327s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/ament_index/resource_index/parent_prefix_path/village_li
+[0.327s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/ament_prefix_path.sh
+[0.329s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/path.sh
+[0.329s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/path.dsv
+[0.330s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.bash
+[0.330s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.sh
+[0.330s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.zsh
+[0.331s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.dsv
+[0.332s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_li/share/village_li/package.dsv
+[0.342s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/ament_index/resource_index/packages/village_li
+[0.343s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/cmake/village_liConfig.cmake
+[0.343s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/cmake/village_liConfig-version.cmake
+[0.343s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/share/village_li/package.xml
+[0.344s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/village_li/lib/village_li/li_node
+[0.347s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li

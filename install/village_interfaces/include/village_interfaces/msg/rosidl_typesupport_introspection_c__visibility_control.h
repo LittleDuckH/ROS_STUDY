@@ -1,0 +1,1 @@
+/home/huang/codes/ROS_Study/build/village_interfaces/rosidl_typesupport_introspection_c/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

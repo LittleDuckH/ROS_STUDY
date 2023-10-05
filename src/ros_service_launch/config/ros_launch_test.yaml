@@ -1,0 +1,4 @@
+/client_launch_test:
+  ros__parameters:
+    service_launch_name: huang
+    service_launch_money: 1008611

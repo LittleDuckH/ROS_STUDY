@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target pub_node[0m
+[ 50%] Built target sub_node
+[ 75%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub_node[0m
+[100%] Built target pub_node

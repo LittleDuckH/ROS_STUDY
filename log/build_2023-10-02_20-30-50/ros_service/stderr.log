@@ -1,0 +1,13 @@
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::service_callback(tutorial_interfaces::srv::Money::Request, tutorial_interfaces::srv::Money::Response)[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   46 | oid service_callback([01;35m[Kconst tutorial_interfaces::srv::Money::Request request[m[K, const tutorial_interfaces::srv::Money::Response response)
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:129:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   46 | srv::Money::Request request, [01;35m[Kconst tutorial_interfaces::srv::Money::Response response[m[K)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5

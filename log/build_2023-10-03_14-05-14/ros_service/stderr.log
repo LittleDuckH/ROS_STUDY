@@ -1,0 +1,4 @@
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalClienter::client_callback(rclcpp::Client<tutorial_interfaces::srv::Money>::SharedFuture)[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:17:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   17 |   void client_callback([01;35m[Krclcpp::Client<tutorial_interfaces::srv::Money>::SharedFuture reponse[m[K)
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

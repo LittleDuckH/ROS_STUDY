@@ -1,0 +1,1 @@
+/home/huang/codes/ROS_Study/src/tutorial_interfaces/msg/Picture.msg

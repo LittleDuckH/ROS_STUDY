@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/sub_node.dir/src/sub.cpp.o: in function `MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Picture_<std::allocator<void> > const&) const':
+sub.cpp:(.text._ZNK17MinimalSubscriber14topic_callbackERKN19tutorial_interfaces3msg8Picture_ISaIvEEE[_ZNK17MinimalSubscriber14topic_callbackERKN19tutorial_interfaces3msg8Picture_ISaIvEEE]+0x6f): undefined reference to `cv_bridge::toCvCopy(sensor_msgs::msg::Image_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:162：sub_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: CMakeFiles/pub_node.dir/src/pub.cpp.o: in function `MinimalPublisher::timer_callback()':
+pub.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0xbf): undefined reference to `cv_bridge::CvImage::toImageMsg() const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/pub_node.dir/build.make:162：pub_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/pub_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

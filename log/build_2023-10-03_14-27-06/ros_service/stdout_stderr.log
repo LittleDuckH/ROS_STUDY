@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target client_node[0m
+[ 50%] Built target service_node
+[ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_test.cpp.o[0m
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalClienter::send_client()[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:26:96:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[K_1[m[K’ in ‘[01m[K(MinimalClienter*)this[m[K’, which is of pointer type ‘[01m[KMinimalClienter*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   26 |     money_client->async_send_request(request, std::bind(&MinimalClienter::client_callback,this.[01;31m[K_1[m[K));
+      |                                                                                                [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/client_node.dir/build.make:63：CMakeFiles/client_node.dir/src/client_test.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/client_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

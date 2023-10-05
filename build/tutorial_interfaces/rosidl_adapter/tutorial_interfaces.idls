@@ -1,0 +1,5 @@
+/home/huang/codes/ROS_Study/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Picture.idl
+/home/huang/codes/ROS_Study/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/huang/codes/ROS_Study/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/huang/codes/ROS_Study/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl
+/home/huang/codes/ROS_Study/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/Money.idl

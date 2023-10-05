@@ -1,0 +1,1 @@
+/home/huang/codes/ROS_Study/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/detail/book__builder.hpp

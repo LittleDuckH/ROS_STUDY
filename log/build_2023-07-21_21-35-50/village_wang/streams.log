@@ -1,0 +1,50 @@
+[0.077s] Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/huang/codes/ROS_Study/src/village_wang -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/village_wang
+[0.111s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.267s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.715s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.737s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.970s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.088s] -- Configured cppcheck include dirs: 
+[1.088s] -- Configured cppcheck exclude dirs and/or files: 
+[1.090s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.090s] -- Configured cpplint exclude dirs and/or files: 
+[1.090s] -- Added test 'lint_cmake' to check CMake code style
+[1.092s] -- Added test 'uncrustify' to check C / C++ code style
+[1.092s] -- Configured uncrustify additional arguments: 
+[1.093s] -- Added test 'xmllint' to check XML markup files
+[1.100s] -- Configuring done
+[1.112s] -- Generating done
+[1.113s] -- Build files have been written to: /home/huang/codes/ROS_Study/build/village_wang
+[1.120s] Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/huang/codes/ROS_Study/src/village_wang -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/village_wang
+[1.125s] Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_wang -- -j8 -l8
+[1.206s] [ 50%] [32m[1mLinking CXX executable wang2_node[0m
+[1.731s] [100%] Built target wang2_node
+[1.749s] Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_wang -- -j8 -l8
+[1.815s] Invoking command in '/home/huang/codes/ROS_Study/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_wang
+[1.830s] -- Install configuration: ""
+[1.830s] -- Execute custom install script
+[1.830s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[1.845s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[1.865s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[1.884s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[1.900s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/environment/path.sh
+[1.919s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/environment/path.dsv
+[1.937s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/local_setup.bash
+[1.957s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/local_setup.sh
+[1.971s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/local_setup.zsh
+[1.984s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/local_setup.dsv
+[1.996s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.dsv
+[2.016s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[2.023s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[2.036s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[2.048s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/share/village_wang/package.xml
+[2.063s] -- Symlinking: /home/huang/codes/ROS_Study/install/village_wang/lib/village_wang/wang2_node
+[2.123s] Invoked command in '/home/huang/codes/ROS_Study/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_wang

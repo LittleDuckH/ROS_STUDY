@@ -1,0 +1,10 @@
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalClienter::send_client()[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:25:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krequest[m[K’
+   25 |     request->name = "huang"
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+   26 |     [32m[Krequest[m[K->money = 101;
+      |     [32m[K~~~~~~~[m[K                 
+make[2]: *** [CMakeFiles/client_node.dir/build.make:63：CMakeFiles/client_node.dir/src/client_test.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/client_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

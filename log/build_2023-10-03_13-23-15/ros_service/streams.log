@@ -1,0 +1,101 @@
+[0.083s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_service': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_service -- -j8 -l8
+[0.186s] [35m[1mScanning dependencies of target pub_node[0m
+[0.243s] [ 50%] Built target sub_node
+[0.264s] [ 75%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[4.283s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[4.283s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:27:119:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MinimalPublisher::service_callback(tutorial_interfaces::srv::Money::Request, tutorial_interfaces::srv::Money::Response)[m[K’
+[4.283s]    27 |     money_service = this->create_service<tutorial_interfaces::srv::Money>("service_node", std::bind([01;31m[KMinimalPublisher::service_callback[m[K, this, _1, _2),
+[4.283s]       |                                                                                                     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.284s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:44:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.284s]    44 |   void [01;36m[Kservice_callback[m[K(const tutorial_interfaces::srv::Money::Request request, const tutorial_interfaces::srv::Money::Response response)
+[4.284s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.284s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[4.285s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.286s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[4.286s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.286s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:5[m[K:
+[4.286s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::service_callback(tutorial_interfaces::srv::Money::Request, tutorial_interfaces::srv::Money::Response)[m[K’:
+[4.286s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:5:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[4.286s]    46 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request->money);
+[4.287s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.287s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.287s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[4.287s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.287s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:5[m[K:
+[4.287s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.287s]   142 |   [01;36m[Kget_logger[m[K() const;
+[4.288s]       |   [01;36m[K^~~~~~~~~~[m[K
+[4.288s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[4.288s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[4.288s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[4.288s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[4.288s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.288s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[4.289s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[4.289s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.289s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[4.289s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.289s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:5[m[K:
+[4.289s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.290s]    46 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request->money);
+[4.290s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.290s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.290s]    46 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request->money);
+[4.290s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.290s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.290s]    46 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request->money);
+[4.291s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.291s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[4.291s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[4.291s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[4.291s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[4.291s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.292s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[4.292s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[4.292s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.292s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[4.292s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.292s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:5[m[K:
+[4.293s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:23:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[4.293s]    46 |     RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request->money);
+[4.293s]       |                       [01;31m[K^[m[K
+[4.293s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:23:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[4.293s]    46 |     RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request->money);
+[4.293s]       |                       [01;31m[K^[m[K
+[4.294s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:97:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Request[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Request_<std::allocator<void> >[m[K’}
+[4.294s]    46 |     RCLCPP_INFO(this->get_logger, "get a service that request name and money is %s, %d", request[01;31m[K->[m[Kname.c_str(), request->money);
+[4.294s]       |                                                                                                 [01;31m[K^~[m[K
+[4.294s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:46:120:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Request[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Request_<std::allocator<void> >[m[K’}
+[4.294s]    46 |     RCLCPP_INFO(this->get_logger, "get a service that request name and money is %s, %d", request->name.c_str(), request[01;31m[K->[m[Kmoney);
+[4.294s]       |                                                                                                                        [01;31m[K^~[m[K
+[4.295s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:48:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Request[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Request_<std::allocator<void> >[m[K’}
+[4.295s]    48 |     if(request[01;31m[K->[m[Kmoney > 100)
+[4.295s]       |               [01;31m[K^~[m[K
+[4.295s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:50:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Response[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Response_<std::allocator<void> >[m[K’}
+[4.295s]    50 |       response[01;31m[K->[m[Ksuccess = true;
+[4.295s]       |               [01;31m[K^~[m[K
+[4.295s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:51:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Response[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Response_<std::allocator<void> >[m[K’}
+[4.296s]    51 |       response[01;31m[K->[m[Kmoney = request->money;
+[4.296s]       |               [01;31m[K^~[m[K
+[4.296s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:51:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Request[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Request_<std::allocator<void> >[m[K’}
+[4.296s]    51 |       response->money = request[01;31m[K->[m[Kmoney;
+[4.296s]       |                                [01;31m[K^~[m[K
+[4.296s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:53:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Response[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Response_<std::allocator<void> >[m[K’}
+[4.296s]    53 |       response[01;31m[K->[m[Ksuccess = false;
+[4.297s]       |               [01;31m[K^~[m[K
+[4.297s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:54:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Response[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Response_<std::allocator<void> >[m[K’}
+[4.297s]    54 |       response[01;31m[K->[m[Kmoney = request->money;
+[4.297s]       |               [01;31m[K^~[m[K
+[4.297s] [01m[K/home/huang/codes/ROS_Study/src/ros_service/src/pub.cpp:54:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Request[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::srv::Money_Request_<std::allocator<void> >[m[K’}
+[4.297s]    54 |       response->money = request[01;31m[K->[m[Kmoney;
+[4.298s]       |                                [01;31m[K^~[m[K
+[5.438s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63：CMakeFiles/pub_node.dir/src/pub.cpp.o] 错误 1
+[5.439s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/pub_node.dir/all] 错误 2
+[5.439s] make: *** [Makefile:141：all] 错误 2
+[5.443s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_service' returned '2': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_service -- -j8 -l8

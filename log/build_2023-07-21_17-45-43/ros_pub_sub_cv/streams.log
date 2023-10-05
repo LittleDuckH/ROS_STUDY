@@ -1,0 +1,51 @@
+[0.028s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[0.094s] [35m[1mScanning dependencies of target pub_node[0m
+[0.123s] [ 25%] [32m[1mLinking CXX executable sub_node[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[0.896s] /usr/bin/ld: CMakeFiles/sub_node.dir/src/sub.cpp.o: in function `MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Picture_<std::allocator<void> > const&) const':
+[0.896s] sub.cpp:(.text._ZNK17MinimalSubscriber14topic_callbackERKN19tutorial_interfaces3msg8Picture_ISaIvEEE[_ZNK17MinimalSubscriber14topic_callbackERKN19tutorial_interfaces3msg8Picture_ISaIvEEE]+0x6f): undefined reference to `cv_bridge::toCvCopy(sensor_msgs::msg::Image_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[0.896s] collect2: error: ld returned 1 exit status
+[0.900s] make[2]: *** [CMakeFiles/sub_node.dir/build.make:162：sub_node] 错误 1
+[0.901s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+[0.901s] make[1]: *** 正在等待未完成的任务....
+[5.497s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.497s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:35:5:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Ktutorial_interfaces::msg::Picture_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’})
+[5.497s]    35 |     [01;31m[K*message.image[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", this->img).toImageMsg();                                                // CHANGE
+[5.497s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.498s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[5.498s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:3306[m[K,
+[5.498s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[5.498s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[5.498s] [01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[5.498s]   391 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[5.498s]       |     [01;36m[K^~~~~~~~[m[K
+[5.498s] [01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.498s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:35:14:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg::Picture_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[5.498s]    35 |     *message.[01;36m[Kimage[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", this->img).toImageMsg();                                                // CHANGE
+[5.498s]       |              [01;36m[K^~~~~[m[K
+[5.498s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[5.498s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:3306[m[K,
+[5.498s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[5.498s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[5.499s] [01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+[5.499s]   400 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+[5.499s]       |     [01;36m[K^~~~~~~~[m[K
+[5.499s] [01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.499s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:35:14:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg::Picture_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[5.499s]    35 |     *message.[01;36m[Kimage[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", this->img).toImageMsg();                                                // CHANGE
+[5.499s]       |              [01;36m[K^~~~~[m[K
+[5.499s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[5.499s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:3306[m[K,
+[5.499s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[5.499s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[5.499s] [01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+[5.499s]   409 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+[5.499s]       |     [01;36m[K^~~~~~~~[m[K
+[5.500s] [01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.500s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:35:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[5.500s]    35 |     *message.[01;36m[Kimage[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", this->img).toImageMsg();                                                // CHANGE
+[5.500s]       |              [01;36m[K^~~~~[m[K
+[6.963s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63：CMakeFiles/pub_node.dir/src/pub.cpp.o] 错误 1
+[6.963s] make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/pub_node.dir/all] 错误 2
+[6.963s] make: *** [Makefile:141：all] 错误 2
+[6.965s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '2': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8

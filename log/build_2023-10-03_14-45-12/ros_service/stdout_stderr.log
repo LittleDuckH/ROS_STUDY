@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target client_node[0m
+[ 50%] Built target service_node
+[ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_test.cpp.o[0m
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:[m[K In member function ‘[01m[Kvoid MinimalClienter::send_client()[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:28:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   28 |     request->name = str([01;31m[Kargv[m[K[1])
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+   28 |     request->name = [01;31m[Kstr[m[K(argv[1])
+      |                     [01;31m[K^~~[m[K
+      |                     [32m[Kstd[m[K
+make[2]: *** [CMakeFiles/client_node.dir/build.make:63：CMakeFiles/client_node.dir/src/client_test.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/client_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

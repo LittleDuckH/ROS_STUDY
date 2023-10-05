@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from village_interfaces/msg/Book.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module village_interfaces {
+  module msg {
+    struct Book {
+      string content;
+
+      sensor_msgs::msg::Image image;
+    };
+  };
+};

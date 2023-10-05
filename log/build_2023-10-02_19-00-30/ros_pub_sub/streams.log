@@ -1,0 +1,25 @@
+[0.040s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub': AMENT_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub -- -j8 -l8
+[0.129s] [ 50%] Built target sub_node
+[0.136s] [100%] Built target pub_node
+[0.159s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub -- -j8 -l8
+[0.194s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub': AMENT_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub
+[0.204s] -- Install configuration: ""
+[0.206s] -- Execute custom install script
+[0.207s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/lib/ros_pub_sub/pub_node
+[0.207s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/lib/ros_pub_sub/sub_node
+[0.207s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ament_index/resource_index/package_run_dependencies/ros_pub_sub
+[0.208s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ament_index/resource_index/parent_prefix_path/ros_pub_sub
+[0.208s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/environment/ament_prefix_path.sh
+[0.209s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/environment/ament_prefix_path.dsv
+[0.209s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/environment/path.sh
+[0.209s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/environment/path.dsv
+[0.210s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/local_setup.bash
+[0.211s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/local_setup.sh
+[0.211s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/local_setup.zsh
+[0.212s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/local_setup.dsv
+[0.212s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.dsv
+[0.224s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ament_index/resource_index/packages/ros_pub_sub
+[0.224s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/cmake/ros_pub_subConfig.cmake
+[0.224s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/cmake/ros_pub_subConfig-version.cmake
+[0.225s] -- Up-to-date symlink: /home/huang/codes/ROS_Study/install/ros_pub_sub/share/ros_pub_sub/package.xml
+[0.231s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub

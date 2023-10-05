@@ -1,0 +1,54 @@
+[0.046s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[0.116s] [35m[1mScanning dependencies of target sub_node[0m
+[0.117s] [35m[1mScanning dependencies of target pub_node[0m
+[0.171s] [ 25%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o[0m
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[4.353s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[4.353s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:35:89:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ktutorial_interfaces::msg::Picture_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’})
+[4.353s]    35 |     message.image = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", img).toImageMsg([01;31m[K)[m[K;                                                // CHANGE
+[4.353s]       |                                                                                         [01;31m[K^[m[K
+[4.353s] In file included from [01m[K/opt/ros/galactic/include/sensor_msgs/msg/image.hpp:7[m[K,
+[4.353s]                  from [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:40[m[K,
+[4.353s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:4[m[K:
+[4.353s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >& sensor_msgs::msg::Image_<std::allocator<void> >::operator=(const sensor_msgs::msg::Image_<std::allocator<void> >&)[m[K’
+[4.353s]    35 | struct [01;36m[KImage_[m[K
+[4.353s]       |        [01;36m[K^~~~~~[m[K
+[4.353s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’
+[4.354s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >& sensor_msgs::msg::Image_<std::allocator<void> >::operator=(sensor_msgs::msg::Image_<std::allocator<void> >&&)[m[K’
+[4.354s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >[m[K’} to ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >&&[m[K’
+[4.635s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Picture&) const[m[K’:
+[4.635s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:22:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const Picture&, const char [5])[m[K’
+[4.636s]    22 |     cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8[01;31m[K)[m[K;
+[4.636s]       |                                                                                               [01;31m[K^[m[K
+[4.636s] In file included from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:4[m[K:
+[4.636s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[4.636s]   177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.636s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.636s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+[4.636s]   178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+[4.636s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.636s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+[4.636s]   181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.636s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.637s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+[4.637s]   182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+[4.637s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.637s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+[4.637s]   204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.637s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.637s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+[4.637s]   205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+[4.637s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.637s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+[4.637s]   208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+[4.637s]       |                             [01;36m[K^~~~~~~~[m[K
+[4.637s] [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+[4.637s]   209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+[4.638s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.321s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63：CMakeFiles/pub_node.dir/src/pub.cpp.o] 错误 1
+[7.322s] make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/pub_node.dir/all] 错误 2
+[7.322s] make[1]: *** 正在等待未完成的任务....
+[8.372s] make[2]: *** [CMakeFiles/sub_node.dir/build.make:63：CMakeFiles/sub_node.dir/src/sub.cpp.o] 错误 1
+[8.372s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+[8.373s] make: *** [Makefile:141：all] 错误 2
+[8.375s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '2': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8

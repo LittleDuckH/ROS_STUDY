@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (-) JobUnselected: {'identifier': 'ros_pub_sub'}
+[0.000997] (-) JobUnselected: {'identifier': 'ros_pub_sub_cv'}
+[0.001250] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001288] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.002041] (-) JobUnselected: {'identifier': 'village_li'}
+[0.002172] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.002257] (ros_service) JobQueued: {'identifier': 'ros_service', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/huang/codes/ROS_Study/install/tutorial_interfaces')])}
+[0.002306] (ros_service) JobStarted: {'identifier': 'ros_service'}
+[0.032881] (ros_service) JobProgress: {'identifier': 'ros_service', 'progress': 'cmake'}
+[0.035399] (ros_service) JobProgress: {'identifier': 'ros_service', 'progress': 'build'}
+[0.046110] (ros_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/codes/ROS_Study/build/ros_service', '--', '-j8', '-l8'], 'cwd': '/home/huang/codes/ROS_Study/build/ros_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:15732/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'huang'), ('LC_TIME', 'en_US.UTF-8'), ('LIBVA_DRIVERS_PATH', '/opt/intel/mediasdk/lib64'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1343'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1138'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6494cc82bc5109e0fa45e359651a9ce7'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:15732/'), ('COLCON_PREFIX_PATH', '/home/huang/codes/ROS_Study/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'huang'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:15732/'), ('JOURNAL_STREAM', '8:41883'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/huang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/huang-A34:@/tmp/.ICE-unix/1381,unix/huang-A34:/tmp/.ICE-unix/1381'), ('INVOCATION_ID', '9a3484f9143244ff9a5040b15d356a45'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:15732/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/193d2915_f950_4725_8aa0_54085a6ef195'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LIBVA_DRIVER_NAME', 'iHD'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7de3e82ce.sock'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/codes/ROS_Study/install/ros_service:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/home/huang/codes/ROS_Study/install/tutorial_interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/codes/ROS_Study/build/ros_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:15732/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6494cc82bc5109e0fa45e359651a9ce7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:15732/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/ros_service:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic')]), 'shell': False}
+[0.099833] (-) TimerEvent: {}
+[0.142233] (ros_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client_node\x1b[0m\n'}
+[0.148445] (ros_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service_node\x1b[0m\n'}
+[0.199975] (-) TimerEvent: {}
+[0.204810] (ros_service) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client_node.dir/src/client_test.cpp.o\x1b[0m\n'}
+[0.216832] (ros_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service_node.dir/src/service_test.cpp.o\x1b[0m\n'}
+[0.302803] (-) TimerEvent: {}
+[0.403468] (-) TimerEvent: {}
+[0.504073] (-) TimerEvent: {}
+[0.604510] (-) TimerEvent: {}
+[0.705099] (-) TimerEvent: {}
+[0.805782] (-) TimerEvent: {}
+[0.906160] (-) TimerEvent: {}
+[1.006537] (-) TimerEvent: {}
+[1.107026] (-) TimerEvent: {}
+[1.207867] (-) TimerEvent: {}
+[1.308341] (-) TimerEvent: {}
+[1.408820] (-) TimerEvent: {}
+[1.509291] (-) TimerEvent: {}
+[1.609763] (-) TimerEvent: {}
+[1.710294] (-) TimerEvent: {}
+[1.810836] (-) TimerEvent: {}
+[1.911494] (-) TimerEvent: {}
+[2.012713] (-) TimerEvent: {}
+[2.113452] (-) TimerEvent: {}
+[2.214211] (-) TimerEvent: {}
+[2.315049] (-) TimerEvent: {}
+[2.415957] (-) TimerEvent: {}
+[2.516823] (-) TimerEvent: {}
+[2.617704] (-) TimerEvent: {}
+[2.718656] (-) TimerEvent: {}
+[2.819769] (-) TimerEvent: {}
+[2.920499] (-) TimerEvent: {}
+[3.021277] (-) TimerEvent: {}
+[3.121986] (-) TimerEvent: {}
+[3.222555] (-) TimerEvent: {}
+[3.323160] (-) TimerEvent: {}
+[3.423876] (-) TimerEvent: {}
+[3.524521] (-) TimerEvent: {}
+[3.625168] (-) TimerEvent: {}
+[3.725997] (-) TimerEvent: {}
+[3.826798] (-) TimerEvent: {}
+[3.930051] (-) TimerEvent: {}
+[4.030767] (-) TimerEvent: {}
+[4.131412] (-) TimerEvent: {}
+[4.231961] (-) TimerEvent: {}
+[4.332375] (-) TimerEvent: {}
+[4.432791] (-) TimerEvent: {}
+[4.533285] (-) TimerEvent: {}
+[4.633737] (-) TimerEvent: {}
+[4.734232] (-) TimerEvent: {}
+[4.834831] (-) TimerEvent: {}
+[4.878418] (ros_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalClienter::MinimalClienter()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.878937] (ros_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:14:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.879225] (ros_service) StderrLine: {'line': b'   14 |     money_client = this->create_client<tutorial_interfaces::srv::Money>("service_node", \x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.879602] (ros_service) StderrLine: {'line': b'      |                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.879959] (ros_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalClienter::send_client()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.880190] (ros_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.880352] (ros_service) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[Kwhile\x1b[m\x1b[K (!money_client->wait_for_service(std::chrono::seconds(1)))\n'}
+[4.880493] (ros_service) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.887745] (ros_service) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/codes/ROS_Study/src/ros_service/src/client_test.cpp:26:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K(MinimalClienter*)this\x1b[m\x1b[K\xe2\x80\x99, which is of pointer type \xe2\x80\x98\x1b[01m\x1b[KMinimalClienter*\x1b[m\x1b[K\xe2\x80\x99 (maybe you meant to use \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[4.888221] (ros_service) StderrLine: {'line': b'   26 |     money_client->async_send_request(request, std::bind(&MinimalClienter::client_callback,this.\x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[4.888390] (ros_service) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.934978] (-) TimerEvent: {}
+[5.035549] (-) TimerEvent: {}
+[5.136458] (-) TimerEvent: {}
+[5.237255] (-) TimerEvent: {}
+[5.337974] (-) TimerEvent: {}
+[5.438377] (-) TimerEvent: {}
+[5.538937] (-) TimerEvent: {}
+[5.639881] (-) TimerEvent: {}
+[5.740575] (-) TimerEvent: {}
+[5.841269] (-) TimerEvent: {}
+[5.941887] (-) TimerEvent: {}
+[6.042648] (-) TimerEvent: {}
+[6.143205] (-) TimerEvent: {}
+[6.243856] (-) TimerEvent: {}
+[6.344521] (-) TimerEvent: {}
+[6.445187] (-) TimerEvent: {}
+[6.545707] (-) TimerEvent: {}
+[6.648656] (-) TimerEvent: {}
+[6.749284] (-) TimerEvent: {}
+[6.850112] (-) TimerEvent: {}
+[6.908171] (ros_service) StderrLine: {'line': b'make[2]: *** [CMakeFiles/client_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/client_node.dir/src/client_test.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[6.908854] (ros_service) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80\xef\xbc\x9aCMakeFiles/client_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.909099] (ros_service) StderrLine: {'line': b'make[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[6.950298] (-) TimerEvent: {}
+[7.051105] (-) TimerEvent: {}
+[7.152143] (-) TimerEvent: {}
+[7.252859] (-) TimerEvent: {}
+[7.353486] (-) TimerEvent: {}
+[7.453970] (-) TimerEvent: {}
+[7.554589] (-) TimerEvent: {}
+[7.655185] (-) TimerEvent: {}
+[7.730871] (ros_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable service_node\x1b[0m\n'}
+[7.755361] (-) TimerEvent: {}
+[7.855984] (-) TimerEvent: {}
+[7.956705] (-) TimerEvent: {}
+[8.057378] (-) TimerEvent: {}
+[8.075113] (ros_service) StdoutLine: {'line': b'[ 75%] Built target service_node\n'}
+[8.079474] (ros_service) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.082159] (ros_service) CommandEnded: {'returncode': 2}
+[8.158684] (-) TimerEvent: {}
+[8.206899] (ros_service) JobEnded: {'identifier': 'ros_service', 'rc': 2}
+[8.218302] (-) EventReactorShutdown: {}

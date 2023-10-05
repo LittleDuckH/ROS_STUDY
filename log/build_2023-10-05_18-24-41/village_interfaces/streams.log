@@ -1,0 +1,169 @@
+[0.091s] Invoking command in '/home/huang/codes/ROS_Study/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/huang/codes/ROS_Study/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/village_interfaces
+[0.195s] -- The C compiler identification is GNU 9.4.0
+[0.282s] -- The CXX compiler identification is GNU 9.4.0
+[0.294s] -- Check for working C compiler: /usr/bin/cc
+[0.411s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.411s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.579s] -- Detecting C compile features
+[0.580s] -- Detecting C compile features - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.762s] -- Detecting CXX compiler ABI info
+[0.913s] -- Detecting CXX compiler ABI info - done
+[0.943s] -- Detecting CXX compile features
+[0.944s] -- Detecting CXX compile features - done
+[0.948s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.982s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.982s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.160s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.294s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.491s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.557s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.863s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.869s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.920s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.924s] -- Looking for pthread.h
+[2.046s] -- Looking for pthread.h - found
+[2.047s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.163s] -- Looking for pthread_create in pthreads
+[2.258s] -- Looking for pthread_create in pthreads - not found
+[2.260s] -- Looking for pthread_create in pthread
+[2.398s] -- Looking for pthread_create in pthread - found
+[2.400s] -- Found Threads: TRUE  
+[2.673s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.930s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[3.001s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.423s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[4.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.685s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.690s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.755s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.757s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.758s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.758s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.814s] -- Found PythonExtra: .so  
+[5.265s] -- Using numpy include directory: /home/huang/.local/lib/python3.8/site-packages/numpy/core/include
+[5.304s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.369s] -- Added test 'lint_cmake' to check CMake code style
+[5.373s] -- Added test 'xmllint' to check XML markup files
+[5.389s] -- Configuring done
+[5.554s] -- Generating done
+[5.560s] -- Build files have been written to: /home/huang/codes/ROS_Study/build/village_interfaces
+[5.595s] Invoked command in '/home/huang/codes/ROS_Study/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/huang/codes/ROS_Study/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/village_interfaces
+[5.597s] Invoking command in '/home/huang/codes/ROS_Study/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_interfaces -- -j8 -l8
+[5.737s] [35m[1mScanning dependencies of target village_interfaces__cpp[0m
+[5.795s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.804s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.672s] [  6%] Built target village_interfaces__cpp
+[6.731s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.746s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.785s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.827s] [35m[1mScanning dependencies of target village_interfaces__rosidl_generator_c[0m
+[6.921s] [ 19%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/book__functions.c.o[0m
+[7.314s] [ 22%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[7.643s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[7.686s] [ 22%] Built target village_interfaces__rosidl_generator_c
+[7.821s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.822s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/book__type_support.cpp.o[0m
+[7.834s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.044s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.203s] [ 35%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/book__type_support.cpp.o[0m
+[8.308s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[8.366s] [ 38%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/book__type_support.cpp.o[0m
+[8.816s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[8.962s] [ 41%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/book__type_support.cpp.o[0m
+[8.977s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[9.106s] [ 45%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/book__type_support.c.o[0m
+[9.149s] [ 48%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[9.227s] [ 51%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[9.361s] [ 54%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.403s] [ 54%] Built target village_interfaces__rosidl_typesupport_cpp
+[9.623s] [ 54%] Built target village_interfaces__rosidl_typesupport_c
+[9.640s] [ 54%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[10.016s] [ 58%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.080s] [ 61%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.390s] [ 61%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[10.535s] [ 61%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.606s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.174s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[11.212s] [ 67%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/book__type_support_c.cpp.o[0m
+[11.935s] [ 70%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.128s] [ 70%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[12.148s] [35m[1mScanning dependencies of target village_interfaces[0m
+[12.166s] [ 70%] Built target village_interfaces
+[12.184s] [35m[1mScanning dependencies of target village_interfaces__py[0m
+[12.209s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.498s] [ 74%] Built target village_interfaces__py
+[13.529s] [35m[1mScanning dependencies of target village_interfaces__python[0m
+[13.580s] [ 77%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_book_s.c.o[0m
+[13.732s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so[0m
+[13.800s] [ 80%] Built target village_interfaces__python
+[13.817s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[13.817s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[13.827s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[13.864s] [ 83%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.870s] [ 87%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[13.919s] [ 90%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.056s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.078s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.153s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.188s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[14.196s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[14.304s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[14.333s] Invoked command in '/home/huang/codes/ROS_Study/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_interfaces -- -j8 -l8
+[14.517s] Invoking command in '/home/huang/codes/ROS_Study/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_interfaces
+[14.538s] -- Install configuration: ""
+[14.538s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces
+[14.538s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg
+[14.538s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail
+[14.538s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail/book__functions.c
+[14.540s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[14.541s] -- Set runtime path of "/home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[14.542s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces
+[14.542s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg
+[14.542s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail
+[14.542s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces
+[14.543s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg
+[14.543s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail
+[14.543s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[14.543s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces
+[14.544s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg
+[14.544s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail
+[14.544s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail/book__type_support.c
+[14.544s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[14.547s] -- Set runtime path of "/home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[14.547s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[14.551s] -- Set runtime path of "/home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[14.551s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces
+[14.551s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg
+[14.552s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail
+[14.552s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces
+[14.552s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg
+[14.552s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail
+[14.552s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/include/village_interfaces/msg/detail/book__type_support.cpp
+[14.552s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.559s] -- Set runtime path of "/home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[14.559s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[14.559s] -- Set runtime path of "/home/huang/codes/ROS_Study/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.619s] Compiling '/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...
+[14.626s] -- Up-to-date: /home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[14.626s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_book_s.c
+[14.629s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/package.dsv
+[14.630s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[14.630s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.630s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.631s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.631s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[14.631s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.632s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[14.632s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.632s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.633s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[14.633s] -- Installing: /home/huang/codes/ROS_Study/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.651s] Invoked command in '/home/huang/codes/ROS_Study/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_interfaces

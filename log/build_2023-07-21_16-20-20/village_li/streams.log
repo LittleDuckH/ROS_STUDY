@@ -1,0 +1,77 @@
+[0.078s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/huang/codes/ROS_Study/src/village_li -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/village_li
+[0.169s] -- The C compiler identification is GNU 9.4.0
+[0.248s] -- The CXX compiler identification is GNU 9.4.0
+[0.255s] -- Check for working C compiler: /usr/bin/cc
+[0.345s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.346s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.533s] -- Detecting C compile features
+[0.534s] -- Detecting C compile features - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.672s] -- Detecting CXX compiler ABI info
+[0.789s] -- Detecting CXX compiler ABI info - done
+[0.811s] -- Detecting CXX compile features
+[0.812s] -- Detecting CXX compile features - done
+[0.814s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.844s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.844s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.948s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.053s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.195s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.239s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.430s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.434s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.458s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.460s] -- Looking for pthread.h
+[1.549s] -- Looking for pthread.h - found
+[1.549s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.642s] -- Looking for pthread_create in pthreads
+[1.738s] -- Looking for pthread_create in pthreads - not found
+[1.738s] -- Looking for pthread_create in pthread
+[1.870s] -- Looking for pthread_create in pthread - found
+[1.872s] -- Found Threads: TRUE  
+[2.147s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.254s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.255s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.255s] -- Configured cppcheck include dirs: 
+[2.255s] -- Configured cppcheck exclude dirs and/or files: 
+[2.257s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.257s] -- Configured cpplint exclude dirs and/or files: 
+[2.257s] -- Added test 'lint_cmake' to check CMake code style
+[2.258s] -- Added test 'uncrustify' to check C / C++ code style
+[2.259s] -- Configured uncrustify additional arguments: 
+[2.259s] -- Added test 'xmllint' to check XML markup files
+[2.264s] -- Configuring done
+[2.271s] -- Generating done
+[2.273s] -- Build files have been written to: /home/huang/codes/ROS_Study/build/village_li
+[2.291s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/huang/codes/ROS_Study/src/village_li -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/village_li
+[2.292s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[2.366s] [35m[1mScanning dependencies of target li_node[0m
+[2.429s] [ 50%] [32mBuilding CXX object CMakeFiles/li_node.dir/src/li_oop.cpp.o[0m
+[11.466s] [100%] [32m[1mLinking CXX executable li_node[0m
+[11.818s] [100%] Built target li_node
+[11.857s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/village_li -- -j8 -l8
+[11.921s] Invoking command in '/home/huang/codes/ROS_Study/build/village_li': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li
+[11.941s] -- Install configuration: ""
+[11.941s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/ament_index/resource_index/package_run_dependencies/village_li
+[11.942s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/ament_index/resource_index/parent_prefix_path/village_li
+[11.942s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/ament_prefix_path.sh
+[11.942s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/ament_prefix_path.dsv
+[11.942s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/path.sh
+[11.943s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/environment/path.dsv
+[11.943s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.bash
+[11.943s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.sh
+[11.943s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.zsh
+[11.943s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/local_setup.dsv
+[11.943s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/package.dsv
+[11.944s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/ament_index/resource_index/packages/village_li
+[11.944s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/cmake/village_liConfig.cmake
+[11.944s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/cmake/village_liConfig-version.cmake
+[11.944s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/share/village_li/package.xml
+[11.944s] -- Installing: /home/huang/codes/ROS_Study/install/village_li/lib/village_li/li_node
+[11.945s] -- Set runtime path of "/home/huang/codes/ROS_Study/install/village_li/lib/village_li/li_node" to ""
+[11.950s] Invoked command in '/home/huang/codes/ROS_Study/build/village_li' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/village_li

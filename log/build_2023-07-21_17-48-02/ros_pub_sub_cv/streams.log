@@ -1,0 +1,18 @@
+[0.046s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[0.110s] [35m[1mScanning dependencies of target pub_node[0m
+[0.136s] [ 25%] [32m[1mLinking CXX executable sub_node[0m
+[0.157s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[0.728s] /usr/bin/ld: CMakeFiles/sub_node.dir/src/sub.cpp.o: in function `MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Picture_<std::allocator<void> > const&) const':
+[0.728s] sub.cpp:(.text._ZNK17MinimalSubscriber14topic_callbackERKN19tutorial_interfaces3msg8Picture_ISaIvEEE[_ZNK17MinimalSubscriber14topic_callbackERKN19tutorial_interfaces3msg8Picture_ISaIvEEE]+0x6f): undefined reference to `cv_bridge::toCvCopy(sensor_msgs::msg::Image_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[0.728s] collect2: error: ld returned 1 exit status
+[0.731s] make[2]: *** [CMakeFiles/sub_node.dir/build.make:162：sub_node] 错误 1
+[0.731s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+[0.732s] make[1]: *** 正在等待未完成的任务....
+[6.923s] [ 75%] [32m[1mLinking CXX executable pub_node[0m
+[7.161s] /usr/bin/ld: CMakeFiles/pub_node.dir/src/pub.cpp.o: in function `MinimalPublisher::timer_callback()':
+[7.161s] pub.cpp:(.text._ZN16MinimalPublisher14timer_callbackEv[_ZN16MinimalPublisher14timer_callbackEv]+0xbf): undefined reference to `cv_bridge::CvImage::toImageMsg() const'
+[7.161s] collect2: error: ld returned 1 exit status
+[7.163s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:162：pub_node] 错误 1
+[7.163s] make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/pub_node.dir/all] 错误 2
+[7.163s] make: *** [Makefile:141：all] 错误 2
+[7.166s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '2': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8

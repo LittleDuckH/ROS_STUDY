@@ -1,0 +1,248 @@
+[35m[1mScanning dependencies of target sub_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o[0m
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::Mat::Mat(const char [27])[m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;31m[K)[m[K
+      |                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:2091:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Mat&&)[m[K’
+ 2091 |     [01;36m[KMat[m[K(Mat&& m);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:2091:15:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [27][m[K’ to ‘[01m[Kcv::Mat&&[m[K’
+ 2091 |     Mat([01;36m[KMat&& m[m[K);
+      |         [01;36m[K~~~~~~^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core/cuda.hpp:1268[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:47[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/stitching/warpers.hpp:46[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/stitching.hpp:48[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:86[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:713:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::cuda::GpuMat&)[m[K’
+  713 | [01;36m[KMat[m[K::Mat(const cuda::GpuMat& m)
+      | [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:713:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [27][m[K’ to ‘[01m[Kconst cv::cuda::GpuMat&[m[K’
+  713 | Mat::Mat([01;36m[Kconst cuda::GpuMat& m[m[K)
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1048:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const cv::MatCommaInitializer_<_Tp>&)[m[K’
+ 1048 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const MatCommaInitializer_<_Tp>& commaInitializer);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1048:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::MatCommaInitializer_<_Tp>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1044:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point3_<_Tp>&, bool)[m[K’
+ 1044 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const Point3_<_Tp>& pt, bool copyData=true);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1044:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Point3_<_Tp>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1040:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point_<_Tp>&, bool)[m[K’
+ 1040 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const Point_<_Tp>& pt, bool copyData=true);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1040:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Point_<_Tp>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1036:51:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int m, int n> cv::Mat::Mat(const cv::Matx<_Tp, m, n>&, bool)[m[K’
+ 1036 |     template<typename _Tp, int m, int n> explicit [01;36m[KMat[m[K(const Matx<_Tp, m, n>& mtx, bool copyData=true);
+      |                                                   [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1036:51:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Matx<_Tp, m, n>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1032:44:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> cv::Mat::Mat(const cv::Vec<_Tp, m>&, bool)[m[K’
+ 1032 |     template<typename _Tp, int n> explicit [01;36m[KMat[m[K(const Vec<_Tp, n>& vec, bool copyData=true);
+      |                                            [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1032:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Vec<_Tp, m>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1028:49:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> cv::Mat::Mat(const std::array<_Tp, _Nm>&, bool)[m[K’
+ 1028 |     template<typename _Tp, size_t _Nm> explicit [01;36m[KMat[m[K(const std::array<_Tp, _Nm>& arr, bool copyData=false);
+      |                                                 [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1028:49:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1024:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(std::initializer_list<int>, std::initializer_list<_Tp>)[m[K’
+ 1024 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const std::initializer_list<int> sizes, const std::initializer_list<_Tp> list);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1024:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1020:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class> cv::Mat::Mat(std::initializer_list<_Tp>)[m[K’
+ 1020 |     explicit [01;36m[KMat[m[K(const std::initializer_list<_Tp> list);
+      |              [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1020:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kconst char*[m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1015:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::Mat::Mat(const std::vector<_Tp>&, bool)[m[K’
+ 1015 |     template<typename _Tp> explicit [01;36m[KMat[m[K(const std::vector<_Tp>& vec, bool copyData=false);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:1015:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:14:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::vector<_Tp>[m[K’ and ‘[01m[Kconst char [27][m[K’
+   14 |   MinimalPublisher(): Node("minimal_publisher"), img("/home/huang/codes/test.jpg"[01;36m[K)[m[K
+      |                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:3[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:997:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const std::vector<cv::Range>&)[m[K’
+  997 |     [01;36m[KMat[m[K(const Mat& m, const std::vector<Range>& ranges);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:997:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:987:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const cv::Range*)[m[K’
+  987 |     [01;36m[KMat[m[K(const Mat& m, const Range* ranges);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:987:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:977:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const Rect&)[m[K’
+  977 |     [01;36m[KMat[m[K(const Mat& m, const Rect& roi);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:977:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&, const cv::Range&, const cv::Range&)[m[K’
+  967 |     [01;36m[KMat[m[K(const Mat& m, const Range& rowRange, const Range& colRange=Range::all());
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:967:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:955:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const std::vector<int>&, int, void*, const size_t*)[m[K’
+  955 |     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type, void* data, const size_t* steps=0);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:955:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:941:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, const int*, int, void*, const size_t*)[m[K’
+  941 |     [01;36m[KMat[m[K(int ndims, const int* sizes, int type, void* data, const size_t* steps=0);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:941:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:926:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Size, int, void*, size_t)[m[K’
+  926 |     [01;36m[KMat[m[K(Size size, int type, void* data, size_t step=AUTO_STEP);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:926:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:910:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, int, int, void*, size_t)[m[K’
+  910 |     [01;36m[KMat[m[K(int rows, int cols, int type, void* data, size_t step=AUTO_STEP);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:910:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:894:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const cv::Mat&)[m[K’
+  894 |     [01;36m[KMat[m[K(const Mat& m);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:894:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [27][m[K’ to ‘[01m[Kconst cv::Mat&[m[K’
+  894 |     Mat([01;36m[Kconst Mat& m[m[K);
+      |         [01;36m[K~~~~~~~~~~~^[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:884:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const std::vector<int>&, int, const Scalar&)[m[K’
+  884 |     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type, const Scalar& s);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:884:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:874:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, const int*, int, const Scalar&)[m[K’
+  874 |     [01;36m[KMat[m[K(int ndims, const int* sizes, int type, const Scalar& s);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:874:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:863:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(const std::vector<int>&, int)[m[K’
+  863 |     [01;36m[KMat[m[K(const std::vector<int>& sizes, int type);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:863:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:856:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, const int*, int)[m[K’
+  856 |     [01;36m[KMat[m[K(int ndims, const int* sizes, int type);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:856:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:848:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Size, int, const Scalar&)[m[K’
+  848 |     [01;36m[KMat[m[K(Size size, int type, const Scalar& s);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:848:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:837:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, int, int, const Scalar&)[m[K’
+  837 |     [01;36m[KMat[m[K(int rows, int cols, int type, const Scalar& s);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:837:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:826:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(cv::Size, int)[m[K’
+  826 |     [01;36m[KMat[m[K(Size size, int type);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:826:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat(int, int, int)[m[K’
+  818 |     [01;36m[KMat[m[K(int rows, int cols, int type);
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:818:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat::Mat()[m[K’
+  810 |     [01;36m[KMat[m[K() CV_NOEXCEPT;
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/local/include/opencv4/opencv2/core/mat.hpp:810:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:35:50:[m[K [01;31m[Kerror: [m[K‘[01m[KHeader[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kstd_msgs::msg::Header[m[K’?
+   35 |     message.image = cv_bridge::CvImage(std_msgs::[01;31m[KHeader[m[K(), "bgr8", img).toImageMsg();                                                // CHANGE
+      |                                                  [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/galactic/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:40[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:4[m[K:
+[01m[K/opt/ros/galactic/include/std_msgs/msg/detail/header__struct.hpp:139:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::Header[m[K’ declared here
+  139 | using [01;36m[KHeader[m[K =
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Picture&) const[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ptr[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_ptr[m[K’?
+   22 |     [01;31m[Kcv_ptr[m[K = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ksi_ptr[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:22:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const Picture&, const char [5])[m[K’
+   22 |     cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:4[m[K:
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+  182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+  204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+  205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+  208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/cv_bridge/cv_bridge.h:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+  209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:27:9:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+   27 |         [01;31m[Kbreak[m[K;
+      |         [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/pub_node.dir/build.make:63：CMakeFiles/pub_node.dir/src/pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/pub_node.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63：CMakeFiles/sub_node.dir/src/sub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

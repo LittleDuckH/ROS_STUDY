@@ -1,0 +1,60 @@
+[0.042s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/huang/codes/ROS_Study/src/ros_pub_sub_cv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/ros_pub_sub_cv
+[0.073s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.124s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.207s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.222s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.630s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.893s] -- Found tutorial_interfaces: 0.0.0 (/home/huang/codes/ROS_Study/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.315s] -- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+[1.339s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.469s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.472s] -- Configured cppcheck include dirs: 
+[1.472s] -- Configured cppcheck exclude dirs and/or files: 
+[1.473s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.474s] -- Configured cpplint exclude dirs and/or files: 
+[1.475s] -- Added test 'lint_cmake' to check CMake code style
+[1.477s] -- Added test 'uncrustify' to check C / C++ code style
+[1.477s] -- Configured uncrustify additional arguments: 
+[1.477s] -- Added test 'xmllint' to check XML markup files
+[1.482s] -- Configuring done
+[1.518s] -- Generating done
+[1.522s] -- Build files have been written to: /home/huang/codes/ROS_Study/build/ros_pub_sub_cv
+[1.532s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/huang/codes/ROS_Study/src/ros_pub_sub_cv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huang/codes/ROS_Study/install/ros_pub_sub_cv
+[1.536s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[1.595s] [35m[1mScanning dependencies of target sub_node[0m
+[1.629s] [ 25%] [32m[1mLinking CXX executable pub_node[0m
+[1.655s] [ 50%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o[0m
+[2.373s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[2.373s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[2.387s] [ 75%] Built target pub_node
+[13.320s] [100%] [32m[1mLinking CXX executable sub_node[0m
+[14.551s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[14.594s] [100%] Built target sub_node
+[14.631s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[14.689s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub_cv
+[14.705s] -- Install configuration: ""
+[14.705s] -- Execute custom install script
+[14.706s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/ros_pub_sub_cv/pub_node
+[14.715s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/lib/ros_pub_sub_cv/sub_node
+[14.724s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ament_index/resource_index/package_run_dependencies/ros_pub_sub_cv
+[14.732s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ament_index/resource_index/parent_prefix_path/ros_pub_sub_cv
+[14.740s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/ament_prefix_path.sh
+[14.748s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/ament_prefix_path.dsv
+[14.756s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/path.sh
+[14.771s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/environment/path.dsv
+[14.788s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.bash
+[14.800s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.sh
+[14.815s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.zsh
+[14.837s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/local_setup.dsv
+[14.858s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.dsv
+[14.881s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ament_index/resource_index/packages/ros_pub_sub_cv
+[14.906s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/cmake/ros_pub_sub_cvConfig.cmake
+[14.926s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/cmake/ros_pub_sub_cvConfig-version.cmake
+[14.949s] -- Symlinking: /home/huang/codes/ROS_Study/install/ros_pub_sub_cv/share/ros_pub_sub_cv/package.xml
+[14.990s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '0': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/huang/codes/ROS_Study/build/ros_pub_sub_cv

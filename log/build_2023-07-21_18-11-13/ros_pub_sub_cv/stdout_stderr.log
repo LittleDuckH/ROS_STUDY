@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target sub_node[0m
+[ 50%] Built target pub_node
+[ 75%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o[0m
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krows[m[K’ has not been declared
+   33 |   cv::Mat resizedFrame([01;31m[Krows[m[K, cols, CV_8U, cv::Scalar(255, 255, 255));
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcols[m[K’ has not been declared
+   33 |   cv::Mat resizedFrame(rows, [01;31m[Kcols[m[K, CV_8U, cv::Scalar(255, 255, 255));
+      |                              [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core/cvdef.h:190[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:52[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:3[m[K:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:36:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   33 |   cv::Mat resizedFrame(rows, cols, [01;31m[KCV_8U[m[K, cv::Scalar(255, 255, 255));
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Picture&) const[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:26:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kcv::Mat MinimalSubscriber::resizedFrame(int, int, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   26 |     cv::resize(img, resizedFrame, [01;31m[KresizedFrame[m[K.size());
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:26:21:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kcv::Mat MinimalSubscriber::resizedFrame(int, int, int)[m[K’
+   26 |     cv::resize(img, [01;31m[KresizedFrame[m[K, resizedFrame.size());
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:33:11:[m[K [01;36m[Knote: [m[Kdeclared here
+   33 |   cv::Mat [01;36m[KresizedFrame[m[K(rows, cols, CV_8U, cv::Scalar(255, 255, 255));
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63：CMakeFiles/sub_node.dir/src/sub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

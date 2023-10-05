@@ -1,0 +1,49 @@
+[0.034s] Invoking command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8
+[0.108s] [35m[1mScanning dependencies of target pub_node[0m
+[0.131s] [ 25%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub.cpp.o[0m
+[0.155s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[4.016s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[4.016s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:18:17:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[4.016s]    18 |         return -[01;31m[K1[m[K;
+[4.016s]       |                 [01;31m[K^[m[K
+[4.055s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[4.056s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:32:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ktutorial_interfaces::msg::Picture_<std::allocator<void> >::_image_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} and ‘[01m[Kcv::Mat[m[K’)
+[4.056s]    32 |     message.image = [01;31m[Kimg[m[K                                                // CHANGE
+[4.056s]       |                     [01;31m[K^~~[m[K
+[4.056s] In file included from [01m[K/home/huang/codes/ROS_Study/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/picture__struct.hpp:19[m[K,
+[4.056s]                  from [01m[K/home/huang/codes/ROS_Study/install/tutorial_interfaces/include/tutorial_interfaces/msg/picture.hpp:7[m[K,
+[4.057s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/pub.cpp:5[m[K:
+[4.057s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >& sensor_msgs::msg::Image_<std::allocator<void> >::operator=(const sensor_msgs::msg::Image_<std::allocator<void> >&)[m[K’
+[4.057s]    35 | struct [01;36m[KImage_[m[K
+[4.057s]       |        [01;36m[K^~~~~~[m[K
+[4.058s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’
+[4.058s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >& sensor_msgs::msg::Image_<std::allocator<void> >::operator=(sensor_msgs::msg::Image_<std::allocator<void> >&&)[m[K’
+[4.058s] [01m[K/opt/ros/galactic/include/sensor_msgs/msg/detail/image__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >&&[m[K’
+[4.376s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Picture&) const[m[K’:
+[4.376s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:22:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimshow(const char [6], const Picture&)[m[K’
+[4.376s]    22 |     cv::imshow("video", msg[01;31m[K)[m[K;
+[4.376s]       |                            [01;31m[K^[m[K
+[4.376s] In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[4.377s]                  from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:3[m[K:
+[4.377s] [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:416:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::imshow(const String&, cv::InputArray)[m[K’
+[4.377s]   416 | CV_EXPORTS_W void [01;36m[Kimshow[m[K(const String& winname, InputArray mat);
+[4.377s]       |                   [01;36m[K^~~~~~[m[K
+[4.377s] [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:416:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kcv::InputArray[m[K’ {aka ‘[01m[Kconst cv::_InputArray&[m[K’}
+[4.377s]   416 | CV_EXPORTS_W void imshow(const String& winname, [01;36m[KInputArray mat[m[K);
+[4.377s]       |                                                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[4.378s] [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:651:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::imshow(const String&, const cv::ogl::Texture2D&)[m[K’
+[4.378s]   651 | CV_EXPORTS void [01;36m[Kimshow[m[K(const String& winname, const ogl::Texture2D& tex);
+[4.378s]       |                 [01;36m[K^~~~~~[m[K
+[4.378s] [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:651:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst Picture[m[K’ {aka ‘[01m[Kconst tutorial_interfaces::msg::Picture_<std::allocator<void> >[m[K’} to ‘[01m[Kconst cv::ogl::Texture2D&[m[K’
+[4.379s]   651 | CV_EXPORTS void imshow(const String& winname, [01;36m[Kconst ogl::Texture2D& tex[m[K);
+[4.379s]       |                                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.379s] [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:24:9:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[4.379s]    24 |         [01;31m[Kbreak[m[K;
+[4.379s]       |         [01;31m[K^~~~~[m[K
+[7.492s] make[2]: *** [CMakeFiles/pub_node.dir/build.make:63：CMakeFiles/pub_node.dir/src/pub.cpp.o] 错误 1
+[7.492s] make[1]: *** [CMakeFiles/Makefile2:107：CMakeFiles/pub_node.dir/all] 错误 2
+[7.492s] make[1]: *** 正在等待未完成的任务....
+[9.125s] make[2]: *** [CMakeFiles/sub_node.dir/build.make:63：CMakeFiles/sub_node.dir/src/sub.cpp.o] 错误 1
+[9.125s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/sub_node.dir/all] 错误 2
+[9.125s] make: *** [Makefile:141：all] 错误 2
+[9.130s] Invoked command in '/home/huang/codes/ROS_Study/build/ros_pub_sub_cv' returned '2': CMAKE_PREFIX_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces:/home/huang/codes/ROS_Study/install/village_wang:/home/huang/codes/ROS_Study/install/village_li:/home/huang/codes/ROS_Study/install/village_interfaces:/home/huang/codes/ROS_Study/install/ros_pub_sub_cv:/home/huang/codes/ROS_Study/install/ros_pub_sub:/opt/ros/galactic LD_LIBRARY_PATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib:/home/huang/codes/ROS_Study/install/village_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/huang/codes/ROS_Study/install/tutorial_interfaces/lib/python3.8/site-packages:/home/huang/codes/ROS_Study/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/huang/codes/ROS_Study/build/ros_pub_sub_cv -- -j8 -l8

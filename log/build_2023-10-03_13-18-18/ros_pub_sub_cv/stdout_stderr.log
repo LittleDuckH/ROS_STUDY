@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target pub_node[0m
+[ 50%] Built target sub_node
+[ 75%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[100%] Built target pub_node

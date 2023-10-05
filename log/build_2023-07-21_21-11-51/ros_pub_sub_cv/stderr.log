@@ -1,0 +1,17 @@
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:5[m[K:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Picture&) const[m[K’:
+[01m[K/home/huang/codes/ROS_Study/src/ros_pub_sub_cv/src/sub.cpp:28:37:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   28 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"cols = "[m[K, img.cols , ",rows = ", img.rows);
+      |                                     [01;35m[K^~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/galactic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5

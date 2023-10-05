@@ -1,0 +1,1 @@
+/home/huang/codes/ROS_Study/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/picture__rosidl_typesupport_introspection_cpp.hpp

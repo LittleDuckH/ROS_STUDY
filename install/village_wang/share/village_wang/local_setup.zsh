@@ -1,0 +1,1 @@
+/home/huang/codes/ROS_Study/build/village_wang/ament_cmake_environment_hooks/local_setup.zsh
